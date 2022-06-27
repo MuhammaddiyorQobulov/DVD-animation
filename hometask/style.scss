@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    width: 700px;
+    height: 700px;
+    position: relative;
+    border: 5px solid red;
+    .box {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      color: #fff;
+      font-family: sans-serif;
+      justify-content: center;
+      transform-origin: center;
+    }
+  }
+}
